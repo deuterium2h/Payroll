@@ -1,0 +1,19 @@
+body {
+	padding-top: 70px;
+}
+.panel-heading .accordion-toggle:after{
+	font-family: 'Glyphicons Halflings';
+	content: "\e118";
+	float: right;
+	color: inherit;
+}
+.panel-heading .accordion-toggle.collapsed:after{
+	content: "\e117";
+}
+
+#digital-clock {
+	margin: auto;
+	font-family: courier, monospace;
+	text-align: center;
+	font-size: 19px;
+}

@@ -1,0 +1,106 @@
+<div class="col-md-2">
+					<!-- Accordion -->
+					<div class="panel-group" id="accordion">
+						<!-- Panel 1 -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#dshCollapse">
+										Add Records
+									</a>
+								</h4>
+							</div>
+							<div id="dshCollapse" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<table class="table">
+										<tr>
+											<td>
+												<span class="glyphicon glyphicon-user"></span><a href="addEmp.php">Add Employee</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<span class="fa fa-building-o fa-fw"  style="color:#F9BF3D"></span><a href="addDept.php"> Add Department</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<span class="glyphicon glyphicon-pushpin text-primary" ></span><a href="addDesig.php">Add Designation</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<span class="glyphicon glyphicon-usd" style="color:green"></span><a href="attendance.php">Compute Salary</a>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div> <!-- /Panel 1 -->
+						<!-- Panel 2 -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle" id="li-toggle" data-toggle="collapse" data-parent="#accordion2" href="#liCollapse">
+										Update/Delete Records
+									</a>
+								</h4>
+							</div>
+							<div id="liCollapse" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<table class="table">
+										<tr>
+											<td>
+												<span class="glyphicon glyphicon-user"></span><a href="employee.php">Update Employee</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<span class="fa fa-building-o fa-fw text-success"></span><a href="department.php"> Update Department</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<span class="glyphicon glyphicon-pushpin text-warning" style="color:#F9BF3D"></span><a href="designation.php">Update Designation</a>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div> <!-- /Panel 2 -->
+						<!-- Panel 3 -->
+						<div class="panel panel-default">
+							<!-- Panel 3 heading -->
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a class="accordion-toggle" id="last-toggle" data-toggle="collapse" data-parent="#accordion3" href="#lastCollapse">
+										Account Settings
+									</a>
+								</h4>
+							</div> <!-- /Panel 3 heading -->
+							<!-- Panel 3 collapse -->
+							<div id="lastCollapse" class="panel-collapse collapse in">
+								<!-- Panel 3 body -->
+								<div class="panel-body">
+									<table class="table">
+										<tr>
+											<td>
+												<span class="glyphicon glyphicon-cog"></span><a href="#">Options</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<span class="glyphicon glyphicon-user"></span><a href="#">Change Account</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<span class="glyphicon glyphicon-off" style="color:red"></span><?php echo '<a href="logout.php ">Logout</a>'; ?>
+											</td>
+										</tr>
+									</table>
+								</div> <!-- /Panel 3 body -->
+							</div> <!-- /Panel 3 collapse -->
+						</div> <!-- /Panel 3 -->
+					</div>  <!-- /Accordion -->
+				</div> <!-- /Accordion size -->
